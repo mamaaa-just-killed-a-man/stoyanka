@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     line-height: 34px;
@@ -83,7 +83,7 @@
         margin-bottom: 0;
     }
 
-    .footer {
+    footer {
         background-color: rgba(49, 151, 223, 1);
         width: 1920px;
         margin: 0 auto;
@@ -111,7 +111,7 @@
         margin-bottom: 20px;
     }
 
-    .input {
+    input {
         background-color: rgba(206, 240, 245, 1); 
         border: 2px solid rgba(22, 49, 82, 0.1);
         border-radius: 10px;
