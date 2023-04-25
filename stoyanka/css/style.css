@@ -101,13 +101,16 @@ body {
         list-style: none;
        
     }
+
     .main-footer p {
         width: 156px;
-margin: 0 auto;
+        margin: 0 auto;
     }
+
     .main-footer .email {
         margin-bottom: 20px;
     }
+
     input {
         background-color: rgba(206, 240, 245, 1); 
         border: 2px solid rgba(22, 49, 82, 0.1);
@@ -120,3 +123,71 @@ margin: 0 auto;
         font-size: 36px;
       }
 
+.pic {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.image {
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 250px;
+  height: 320px;
+  border-radius: 40px;
+}
+
+.o-nas {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: 0;
+  align-self: flex-start;
+  width: 200px;
+  color: lightskyblue;
+  border-bottom: 2px solid lightskyblue;
+}
+
+.nomera {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 0;
+  margin-left: auto;
+  align-self: flex-end;
+  width: 200px;
+  color: lightskyblue;
+  border-bottom: 2px solid lightskyblue;
+}
+
+.hotel-pictures {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.room-pictures {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  align-self: center;
+  font-size: 180%;
+  color: darkslategray;
+}
+
+.info {
+  font-style: italic;
+  font-size: 18px;
+}
