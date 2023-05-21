@@ -1,0 +1,129 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 1);
+    background-color: #FFFFFF;
+    margin: 0;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main-header {
+    position: relative;
+    z-index: 1;
+    width: 1920px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 30px 50px 10px;
+    border-bottom: 1px solid rgba(22, 49, 82, 0.1);
+    }
+    .main-nav {
+        display: flex;
+    }
+    .logo {
+        position: relative;
+        margin-right: 720px;
+        width: 160px;
+    }
+
+    .hotels-list { 
+        display: block;
+        position: relative;
+        bottom: 9px;
+        margin: 0;
+        padding: 0;
+        width: 160px;
+        font-size: 24px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 1);
+     list-style: none;
+    }
+    .cities {
+        display: none;
+        list-style: none;
+    }
+    .city {
+        border: 1px solid rgba(22, 49, 82, 0.1);
+    }
+    .city a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+    }
+    .hotels:hover .cities {
+        display: block;
+        border: 1px solid rgba(22, 49, 82, 0.1);
+        padding: 5px;
+    background-color: white;
+    text-align: center; 
+      }
+      .city:active {
+        background-color: #00C6BD;
+      }
+
+    nav .contacts {
+        display: flex;
+        position: relative;
+      
+        justify-content: space-between;
+        font-size: 24px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    width:600px;
+        padding: 10px;
+      margin: 0;
+      margin-right: 30px;
+      margin-left: 40px;
+      list-style: none;
+    }
+    .contacts a {
+        color: rgba(0, 0, 0, 1); 
+        padding: 25px;
+        text-decoration: none;
+        position: relative;
+    }
+    .contacts a:hover {
+        text-decoration: underline;
+        text-decoration-color: #00C6BD;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-underline-position: under;
+    margin: 0;
+    }
+    .contacts a:active {
+color: #0483ca;
+    }
+    .phone a {
+bottom: 3px;
+    }
+    .icon {
+        position: relative;
+        margin: 0;
+    }
+    .icon:hover {
+        opacity: 0.7;
+      }
+    .icon:active {
+        opacity: 0.5;
+      }
+     
+    .user-menus {
+        display: none;
+        list-style: none;
+    }
+    .user-menu {
+        border: 1px solid rgba(22, 49, 82, 0.1);
+    }
+    .user-menu a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+    }
+    .user-icon:active .user-menus {
+        display: block;
+        border: 1px solid rgba(22, 49, 82, 0.1);
+        padding: 5px;
+    background-color: white;
+    text-align: center; 
+      }
+      .user-menu:active {
+        color: #00C6BD;
+      }

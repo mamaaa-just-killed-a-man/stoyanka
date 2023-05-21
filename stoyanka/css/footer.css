@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 1);
+    background-color: #FFFFFF;
+    margin: 0;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+footer {
+    background-color:#0483ca;
+    width: 1920px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 39px;
+} 
+.main-footer {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.main-footer .contacts {
+    display: block;
+    list-style: none;
+   
+}
+.main-footer p {
+    width: 156px;
+margin: 0 auto;
+}
+.main-footer .email {
+    margin-bottom: 20px;
+}
