@@ -5,9 +5,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> 
+    <link href="css/header.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"> 
+<link href="css/footer.css" rel="stylesheet">
     <title>Сеть отелей Стоянка</title>
-  </head>
+</head>
 <body>
   <div class="container">
     <?php require('header.php'); ?>
@@ -16,7 +18,7 @@
     <h1>Остановки, которым <br> <em>доверяют миллионы</em></h1>
 <div class= "registration-text"><p>Уютные отели, расположенные в самом центре городов. В вашем распоряжении все необходимые удобства. О таком отдыхе не стыдно рассказать друзьям и показать в Instagram.
     </p>
-    <p><input type="button" value="Присоединяйтесь!"></p>
+    <form><button class = "join"><a href = "sign-up.php">Присоединяйтесь!</a></button></form>
   </div>
 
 </div>
@@ -69,10 +71,7 @@
     
     
   <footer>
-    <div class="main-footer"><p>Контакты</p>
-        <ul class = "contacts">
-            <li class="email"><img src = "img/letter.svg"  width = "37" height = "26" alt = "Иконка письма"><a href = "#">Stoyanka@info.ru</a></li>
-            <li class="phone"><img src = "img/phone.png"  width = "30" height = "30" alt = "Иконка телефонной трубки"><a href="tel:+79999999999">+7 (999)999-99-99</a></li></ul> </div>
+    <?php require('footer.php'); ?>
   </footer>
 </body>
 </html> 
