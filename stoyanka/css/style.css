@@ -8,36 +8,6 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
-.main-header {
-    width: 1920px;
-    margin: 0 auto;
-    padding: 30px 50px 10px;
-    border-bottom: 1px solid rgba(22, 49, 82, 0.1)
-    }
-    .main-nav {
-        display: flex;
-    }
-    .logo {
-        margin-right: 900px;
-        width: 160px;
-    }
-    nav .contacts {
-        display: flex;
-        justify-content: space-between;
-        font-size: 24px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 1);
-    width:600px;
-        padding: 0;
-      margin: 0;
-      margin-right: 100px;
-      list-style: none;
-    }
-    .contacts a {
-        color: rgba(0, 0, 0, 1); 
-        padding: 25px;
-        text-decoration: none;
-    }
     .main {
         width: 1920px;
         margin: 0 auto;
@@ -78,48 +48,28 @@ body {
         border: 1px solid rgba(22, 49, 82, 0.1);
         padding: 15px;
     }
+.registration-text p {
+        margin-bottom: 50px;
+    }
     .hello-img {
         display:block;
         margin-bottom: 0;
     }
 
-    footer {
-        background-color: rgba(49, 151, 223, 1);
-        width: 1920px;
-        margin: 0 auto;
-        font-size: 32px;
-        line-height: 39px;
-    } 
-    .main-footer {
-        display: block;
-        width: 450px;
-        margin: 0 auto;
-        padding: 50px 0;
-    }
-    .main-footer .contacts {
-        display: block;
-        list-style: none;
-       
-    }
-
-    .main-footer p {
-        width: 156px;
-        margin: 0 auto;
-    }
-
-    .main-footer .email {
-        margin-bottom: 20px;
-    }
-
-    input {
+ .join {
         background-color: rgba(206, 240, 245, 1); 
-        border: 2px solid rgba(22, 49, 82, 0.1);
+        border: 0;
         border-radius: 10px;
-        color: black;
+        width: 370px;
         padding: 15px 32px;
         text-align: center;
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+        margin-bottom: 30px;
+      }
+
+    .join a {
+        color: black;
         text-decoration: none;
-        display: inline-block;
         font-size: 36px;
       }
 
