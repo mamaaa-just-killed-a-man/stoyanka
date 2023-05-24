@@ -1,0 +1,200 @@
+
+.bold {
+  font-weight:700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.page {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  width: 281px;
+  height: 92px;
+  left: 606px;
+  top: 142px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000; 
+}
+
+.photo_box {
+  width: 282px;
+  height: 646px;
+  background: url("../images/v3_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 142px;
+  left: 255px;
+  overflow: hidden;
+}
+
+.map_munch {
+  width: 282px;
+  height: 239px;
+  background: url("../images/map_munch.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 406px;
+  left: 0px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+
+.building {
+  width: 282px;
+  height: 379px;
+  background: url("../images/building.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+
+.actual-review {
+  position: absolute;
+  width: 619px;
+  height: 172px;
+  left: 606px;
+  top: 625px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000000;
+}
+
+.review {
+  position: absolute;
+  width: 100px;
+  height: 39px;
+  left: 606px;
+  top: 529px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.circle_1 {
+  width: 42px;
+  height: 37px;
+  background: url("../images/circle_1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 577px;
+  left: 606px;
+  overflow: hidden;
+}
+
+.user {
+  position: absolute;
+  width: 201px;
+  height: 24px;
+  left: 656px;
+  top: 584px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.circle_2 {
+  width: 49px;
+  height: 49px;
+  background: url("../images/circle_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 812px;
+  left: 606px;
+  overflow: hidden;
+}
+
+.admin {
+  position: absolute;
+  width: 199px;
+  height: 29px;
+  left: 659px;
+  top: 822px;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.admin-feedback {
+  position: absolute;
+  width: 442px;
+  height: 58px;
+  left: 606px;
+  top: 886px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.description {
+  position: absolute;
+  width: 551px;
+  height: 155px;
+  left: 606px;
+  top: 280px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
