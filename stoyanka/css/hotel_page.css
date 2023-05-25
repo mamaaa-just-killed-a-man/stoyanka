@@ -198,3 +198,17 @@ body {
   line-height: 29px;
   color: #000000;
 }
+
+.feedback {
+  position: absolute;
+  width: 100px;
+  height: 39px;
+  left: 606px;
+  top: 960px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
