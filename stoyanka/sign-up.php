@@ -3,12 +3,10 @@ require_once("functions.php");
 require_once("data.php");
 require_once("init.php");
 
-$tpl_data = [];
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $form = $_POST;
-    $required = ["name","email", "password"];
-    $errors = [];
+    $req_fields = ["name","email", 'password'];
+    
 
     $rules = [
         "name" => function($value) {
@@ -29,23 +27,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         "password"=>FILTER_DEFAULT,
     ], true);
 
-    foreach ($values as $value) {
-        if (isset($rules[$value])) {
-            $rule = $rules[$value];
-            $errors[$value] = $rule($value);
-        };
-        if (in_array($value, $required) && empty($value)) {
-            $errors[$value] = "Поле $value нужно заполнить";
+    foreach ($values as $field => $value) {
+        if (isset($rules[$field])) {
+            $rule = $rules[$field];
+            $errors[$field] = $rule($value);
+        }
+        foreach ($req_fields as $field) {
+            if (empty($form[$field])) {
+                $errors[$field] = "Не заполнено поле " . $field;
+            }
         }
     
+    
     }
+
+    
+
     $errors = array_filter($errors);
-
-
     if (count($errors)) {
         $page_content = include_template("registration.php", [
-            "values" => $values,
-            "errors" => $errors
+            'values' => $values,
+            'errors' => $errors
         ]);
     } else {
         $users_data = get_users_data ($con);
@@ -67,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
          else {
             $res = add_user_database($con, $values);
             if ($res) {
-                header("Location: /login.php");
+                header("Location: http://localhost/stoyanka/login.php");
             } else {
                 $error = mysqli_error($con);
             }
@@ -75,6 +77,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-$page_content = include_template('registration.php',["is_auth" => $is_auth]);
+$page_content = include_template('registration.php',["is_auth" => $is_auth,
+'errors' => $errors
+]);
 
 print($page_content);
