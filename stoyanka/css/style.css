@@ -4,140 +4,247 @@ body {
     line-height: 34px;
     color: rgba(0, 0, 0, 1);
     background-color: #FFFFFF;
-    margin: 0;
     max-width: 1920px;
+    margin: 3%;
+}
+
+.main-header {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 30px 50px 10px;
+    border-bottom: 1px solid rgba(22, 49, 82, 0.1)
+}
+
+.main-nav {
+    display: flex;
+}
+
+.logo {
+    margin-right: 900px;
+    width: 160px;
+}
+
+nav .contacts {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    width: 600px;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    list-style: none;
+}
+
+.contacts a {
+    color: rgba(0, 0, 0, 1);
+    padding: 25px;
+    text-decoration: none;
+}
+
+.main {
+    width: 1920px;
     margin: 0 auto;
 }
-    .main {
-        width: 1920px;
-        margin: 0 auto;
-    }
-    .hello {
-        display:flex;
-        width: 1920px;
-        margin: 0 auto;
-        justify-content: flex-end;
 
-    }
+.hello {
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+    justify-content: flex-end;
 
-    .hello-text {
-        display: block;
-        width: 700px;
-        padding: 20px;
-        padding-top: 50px;
-        margin-right: 150px;
-    }
-    .opening {
-        font-weight: 400;
-        font-size: 26px;
-        margin-left: 15px;
-        line-height: 44px;
-    }
-    .hello-text h1 {
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 48px; 
-        margin-left: 15px;
-        margin-bottom: 50px;
-    }
-    .registration-text {
-        display: block;
-        border-radius: 10px;
-        text-align: center;
-        background-color: rgba(206, 240, 245, 1);
-        border: 1px solid rgba(22, 49, 82, 0.1);
-        padding: 15px;
-    }
-.registration-text p {
-        margin-bottom: 50px;
-    }
-    .hello-img {
-        display:block;
-        margin-bottom: 0;
-    }
+}
 
- .join {
-        background-color: rgba(206, 240, 245, 1); 
-        border: 0;
-        border-radius: 10px;
-        width: 370px;
-        padding: 15px 32px;
-        text-align: center;
-        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-        margin-bottom: 30px;
-      }
+.hello-text {
+    display: block;
+    width: 700px;
+    padding: 20px;
+    padding-top: 50px;
+    margin-right: 150px;
+}
 
-    .join a {
-        color: black;
-        text-decoration: none;
-        font-size: 36px;
-      }
+.opening {
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 15px;
+    line-height: 44px;
+}
+
+.hello-text h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.registration-text {
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(206, 240, 245, 1);
+    border: 1px solid rgba(22, 49, 82, 0.1);
+    padding: 15px;
+}
+
+.hello-img {
+    display: block;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: rgba(49, 151, 223, 1);
+    width: 1920px;
+    margin: 30px auto 0;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.main-footer {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main-footer .contacts {
+    display: block;
+    list-style: none;
+
+}
+
+.main-footer p {
+    width: 156px;
+    margin: 0 auto;
+}
+
+.main-footer .email {
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: rgba(206, 240, 245, 1);
+    border: 2px solid rgba(22, 49, 82, 0.1);
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+}
 
 .pic {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin: 0;
-  max-width: 100%;
-  height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .image {
-  margin: 0;
-  padding: 30px;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  width: 250px;
-  height: 320px;
-  border-radius: 40px;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 375px;
+    height: 480px;
+    border-radius: 40px;
 }
 
 .o-nas {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: 0;
-  align-self: flex-start;
-  width: 200px;
-  color: lightskyblue;
-  border-bottom: 2px solid lightskyblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 0;
+    align-self: flex-start;
+    width: 200px;
+    color: lightskyblue;
+    border-bottom: 2px solid lightskyblue;
 }
 
 .nomera {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-right: 0;
-  margin-left: auto;
-  align-self: flex-end;
-  width: 200px;
-  color: lightskyblue;
-  border-bottom: 2px solid lightskyblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: auto;
+    align-self: flex-end;
+    width: 200px;
+    color: lightskyblue;
+    border-bottom: 2px solid lightskyblue;
 }
 
 .hotel-pictures {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .room-pictures {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
-  align-self: center;
-  font-size: 180%;
-  color: darkslategray;
+    align-self: center;
+    font-size: 180%;
+    color: darkslategray;
 }
 
 .info {
-  font-style: italic;
-  font-size: 18px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.otzyvy {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 0;
+    align-self: flex-start;
+    width: 200px;
+    color: lightskyblue;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.flex-wrapper-one {
+    margin-top: 0;
+}
+
+.user-names-ch {
+    padding-top: 3%;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.image-stars {
+    text-align: center;
+    display: inline-block;
+}
+
+.comment-nechet {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.comment-chet {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.spalnja {
+    margin-left: 0;
+    width: 375px;
+    height: 480px;
+    border-radius: 40px;
 }
